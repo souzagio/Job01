@@ -1,0 +1,43 @@
+@charset "UFT-8";
+
+
+@media screen and (min-width: 900px) and (max-width: 1280px) {
+    .proj-sep{
+        flex-direction: column;
+    }
+}
+/*Mobile*/
+@media screen and (min-width: 350px) and (max-width: 900px){
+    .topo{
+        margin: auto;       
+        max-width: 900px;
+        padding: 30px;
+        border-bottom: solid 1px black;
+    }
+
+    .banner{
+        margin: 1px;
+        padding: 1px;
+        flex-direction: column;
+    }
+    #banner-content{
+        padding-right: 1px;
+        margin-left: 20px;
+        margin-top: 0px;
+        width: 100%;
+    }
+
+    .perfi{
+        justify-content: flex-end;
+        
+    }
+    .banner span{
+        margin: 1px;
+        padding: 1px;
+    }
+
+    
+    .proj-sep{
+        flex-direction: column;
+    }
+}
