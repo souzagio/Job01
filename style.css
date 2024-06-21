@@ -26,6 +26,9 @@ h1{
     color: var(--cor04);
 }
 
+h2{
+    color: var(--cor04);
+}
 p{
     color: var(--cor03);
     letter-spacing: 0.075em;
@@ -204,4 +207,77 @@ footer h1::after{
     height: 3px;
     display: block;
     content: "";
+}
+
+/*Projetos*/
+.proj{
+    padding: 0px 15px;    
+}
+.proj h1{
+    border-bottom: solid 3px var(--cor01);
+    display: inline-block;
+}
+
+.proj-sep{
+    display: flex;
+}
+
+.project{
+    overflow: hidden;
+    width: 495px;
+    height: 285px;
+    position: relative;
+    display: block;
+    border-radius: 15px;
+}
+
+.proj img{
+    width: 495px;
+    height: 285px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    &:hover{
+        transform: scale(1.075);
+    }
+}
+
+.impar{
+    border-right: solid 1px rgba(210, 215, 217, 0.75);
+}
+.par{
+    border-left: solid 1px rgba(210, 215, 217, 0.75);
+}
+
+.projn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    height: 720px;
+}
+
+.projn li{
+    padding-left: 0.5em;
+    vertical-align: baseline;
+    letter-spacing: 0.2em;
+}
+
+.more{
+    color: var(--cor01);
+    cursor: pointer;
+    border-radius: 0.375em;
+    border: solid 2px var(--cor01);
+    padding: 15px;
+    width: 90px;
+    height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 700;
+    transition: 0.3s ease-in-out;
+    margin-top: 25px;
+
+    &:hover{
+        background-color: #f1c1c173;
+    }
 }
