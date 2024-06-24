@@ -1,43 +1,27 @@
 @charset "UFT-8";
 
-
-@media screen and (min-width: 900px) and (max-width: 1280px) {
-    .proj-sep{
-        flex-direction: column;
-    }
+@media screen and (min-width: 980px) and (max-width: 1680px){
 }
-/*Mobile*/
-@media screen and (min-width: 350px) and (max-width: 900px){
-    .topo{
-        margin: auto;       
-        max-width: 900px;
-        padding: 30px;
-        border-bottom: solid 1px black;
+
+@media (min-width: 780px){
+    #banner{
+        flex-direction: row;
+        gap: 30px;
+        padding: 15px;
     }
 
-    .banner{
-        margin: 1px;
-        padding: 1px;
-        flex-direction: column;
-    }
     #banner-content{
-        padding-right: 1px;
-        margin-left: 20px;
-        margin-top: 0px;
-        width: 100%;
+        align-self:flex-start;
+        width: 50%;
     }
 
-    .perfi{
-        justify-content: flex-end;
-        
-    }
-    .banner span{
-        margin: 1px;
-        padding: 1px;
+    #banner h1{
+        font-size: 69px;
+        line-height: 90px;
     }
 
-    
-    .proj-sep{
-        flex-direction: column;
+    #banner p{
+        font-size: 17px;
+        line-height: 29px;
     }
 }
