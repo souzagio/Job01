@@ -181,7 +181,7 @@ header h1 {
 
 /*Professional Experiences*/
 #exp {
-    height: 480px;
+    min-height: 480px;
     justify-content: space-around;
     align-items: flex-start;
 }
