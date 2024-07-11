@@ -196,6 +196,11 @@ header h1 {
     line-height: 22px;
 }
 
+#exp a{
+    color: var(--cor01);
+    text-decoration: underline;
+}
+
 /*Projet*/
 #proj {
     align-items: flex-start;
