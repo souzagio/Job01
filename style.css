@@ -19,6 +19,10 @@
     caret-color: transparent;
 }
 
+section .hide{
+    display: none;
+}
+
 /*Configurações gerais*/
 h1 {
     font-size: 43px;
@@ -282,7 +286,7 @@ header h1 {
 /*Footer*/
 #final {
     @media (max-width: 980px) {
-        align-items: flex-start;
+        align-items: center;
     }
 }
 

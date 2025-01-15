@@ -1,27 +1,53 @@
 @charset "UFT-8";
 
-@media screen and (min-width: 980px) and (max-width: 1680px){
+@media screen and (min-width: 980px) and (max-width: 1680px) {
+    
 }
 
-@media (min-width: 780px){
-    #banner{
+@media (min-width: 780px) {
+    #banner {
         flex-direction: row;
         gap: 30px;
         padding: 15px;
     }
 
-    #banner-content{
-        align-self:flex-start;
+    #banner-content {
+        align-self: flex-start;
         width: 50%;
     }
 
-    #banner h1{
+    #banner h1 {
         font-size: 69px;
         line-height: 90px;
     }
 
-    #banner p{
+    #banner p {
         font-size: 17px;
         line-height: 29px;
+    }
+
+}
+
+@media screen and (max-width: 460px){
+    html{
+        padding: 20px;
+    }
+    .skills{
+        margin-bottom: 50px;
+        padding: 2px;
+        margin-left: -35px;
+    }
+
+    .gridskill{
+        padding: 3px;
+        margin-bottom: 50px;
+    }
+
+    .projn{
+        margin-left: -30px;
+    }
+
+    .hide{
+        display: none;
     }
 }
